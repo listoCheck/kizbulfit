@@ -1,0 +1,137 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Arial", sans-serif;
+  font-size: 20px;
+  line-height: 25px;
+  color: #ffffff;
+}
+
+h1 {
+  font-family: "Georgia", serif;
+  text-align: center;
+  font-weight: normal;
+  font-size: 45px;
+  line-height: 20px;
+  color: #e4fd98;
+}
+
+h2 {
+  border-bottom: 2px solid #cccccc;
+  padding-bottom: 12px;
+}
+
+.container {
+  width: 600px;
+  margin: 0 auto;
+  padding: 20 25px;
+}
+
+.site-header {
+  min-width: 550px;
+  height: 186px;
+  margin-bottom: 70px;
+  padding-top: 30px;
+  background: #120e6b no-repeat center url("src/афиша_булкина.png");
+  background-size: cover;
+  color: #ff787d;
+  font-size: 20px;
+  line-height: 25px;
+}
+
+.site-header p {
+  width: 255px;
+  margin: 0 auto 26px;
+  text-align: center;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.site-header img {
+  display: block;
+  margin: 0 auto;
+}
+
+.features {
+  width: 510px;
+  margin: 0 auto 30px;
+  padding: 0 20px;
+  color: #3ae3ea;
+}
+
+.features p {
+  display: inline-block;
+  vertical-align: top;
+  width: 30%;
+  margin: 0 5px;
+  background-repeat: no-repeat;
+  background-position: center top;
+  text-align: center;
+}
+
+.feature-furniture {
+  padding-top: 80px;
+  background-image: url("src/belkin.png");
+}
+
+.feature-lighting {
+  padding-top: 80px;
+  background-image: url("src/kizaru.png");
+}
+
+.feature-accessories {
+  padding-top: 80px;
+  background-image: url("src/zenar.png");
+}
+
+.advantages {
+  width: 510px;
+  margin: 0 auto 40px;
+  padding: 0 20px;
+  color: #f0e356;
+}
+
+.advantages-list {
+  padding: 0;
+  list-style: none;
+}
+/* место для изменения серединного блока со списком*/
+.advantages-item {
+  margin-bottom: 15px;
+  padding-left: 20px;
+  border-left: 20px solid #e2e2e2;
+  color: #14402f;
+}
+
+.standard {
+  border-color: #14402f;
+  color: #ff20de;
+}
+
+/* Добавьте правило для класса vip сюда */
+.vip {
+  border-color: #14402f;
+  color: #ff20de;
+}
+
+
+.site-footer {
+  min-width: 550px;
+  background-color: #2b007b;
+  color: #6a6a6a;
+}
+
+.site-footer .container {
+  text-align: center;
+}
+
+.site-footer p {
+  display: inline-block;
+  vertical-align: middle;
+  padding: 0 20px;
+
+}
+
+.sign figcaption {
+    margin: 0 auto 10px; /* Отступы вокруг абзаца */
+}
